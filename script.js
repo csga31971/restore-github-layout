@@ -10,7 +10,9 @@
 (function() {
     'use strict';
     document.querySelector(".repohead h1").style.left = "21.5%";
-    document.querySelector(".fork-flag").style.marginLeft = "350px";
+    if(document.querySelector(".fork-flag")){
+        document.querySelector(".fork-flag").style.marginLeft = "350px";
+    }
     document.querySelector(".UnderlineNav").style.margin = "0 auto";
     document.querySelector(".UnderlineNav").style.width = "66.5%";
     document.querySelector(".pagehead-actions").style.right = "15.4%";
